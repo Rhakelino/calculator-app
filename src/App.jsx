@@ -15,11 +15,7 @@ function App() {
 
   // Fungsi untuk menghitung hasil
   const calculate = () => {
-    try {
-      setResult(eval(input));
-    } catch (error) {
-      alert('Input tidak valid');
-    }
+    setResult("I Love You Hani❤️")
   };
 
   // Fungsi untuk mereset input
