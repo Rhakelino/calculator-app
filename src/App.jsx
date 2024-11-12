@@ -14,9 +14,15 @@ function App() {
   };
 
   // Fungsi untuk menghitung hasil
-  const calculate = () => {
-    setResult("I Love You Hani❤️")
-  };
+  // Fungsi untuk menghitung hasil
+const calculate = () => {
+  try {
+    setResult(eval(input)); // Mengevaluasi ekspresi dalam input
+  } catch (error) {
+    setResult("Error"); // Menampilkan pesan error jika ada kesalahan
+  }
+};
+
 
   // Fungsi untuk mereset input
   const reset = () => {
