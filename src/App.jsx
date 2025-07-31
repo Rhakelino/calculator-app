@@ -8,12 +8,13 @@ function App() {
   const [input, setInput] = useState('');
   const [result, setResult] = useState(0);
 
+
+ 
   // Fungsi untuk menghandle input
   const handleClick = (value) => {
     setInput((prev) => prev + value);
   };
 
-  // Fungsi untuk menghitung hasil
   // Fungsi untuk menghitung hasil
 const calculate = () => {
   try {
